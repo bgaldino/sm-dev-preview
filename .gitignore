@@ -3,3 +3,4 @@
 deploy
 sfdx
 jest.config.js
+.vscode
