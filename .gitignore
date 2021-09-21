@@ -1,5 +1,5 @@
-.project
-.settings
-salesforce.schema
-Referenced Packages
 .DS_Store
+.sfdx
+deploy
+sfdx
+jest.config.js
