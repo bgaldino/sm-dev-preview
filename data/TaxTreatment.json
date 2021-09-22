@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "TaxTreatment",
+                "referenceId": "TaxTreatmentRef1"
+            },
+            "Name": "No Tax Treatment",
+            "Status": "Active",
+            "LegalEntityId": "@LegalEntityRef1"
+        }
+    ]
+}
