@@ -20,5 +20,4 @@
     <tabs>standard-TaxTreatment</tabs>
     <tabs>standard-LegalEntity</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Subscription_Management_UtilityBar</utilityBar>
 </CustomApplication>
