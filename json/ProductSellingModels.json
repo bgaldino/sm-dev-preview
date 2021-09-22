@@ -19,61 +19,6 @@
             "PricingTermUnit": "Months",
             "Status": "Draft",
             "Name": "Monthly Evergreen"
-        },
-        {
-            "attributes": {
-                "type": "ProductSellingModel",
-                "referenceId": "ProductSellingModelRef3"
-            },
-            "SellingModelType": "Term-Defined",
-            "PricingTerm": 1,
-            "PricingTermUnit": "Months",
-            "Status": "Draft",
-            "Name": "Monthly Term"
-        },
-        {
-            "attributes": {
-                "type": "ProductSellingModel",
-                "referenceId": "ProductSellingModelRef4"
-            },
-            "SellingModelType": "Term-Defined",
-            "PricingTerm": 12,
-            "PricingTermUnit": "Months",
-            "Status": "Draft",
-            "Name": "Annual Term"
-        },
-        {
-            "attributes": {
-                "type": "ProductSellingModel",
-                "referenceId": "ProductSellingModelRef5"
-            },
-            "SellingModelType": "Evergreen",
-            "PricingTerm": 12,
-            "PricingTermUnit": "Months",
-            "Status": "Draft",
-            "Name": "Annual Evergreen"
-        },
-        {
-            "attributes": {
-                "type": "ProductSellingModel",
-                "referenceId": "ProductSellingModelRef6"
-            },
-            "SellingModelType": "Evergreen",
-            "PricingTerm": 7,
-            "PricingTermUnit": "Days",
-            "Status": "Draft",
-            "Name": "Weekly Evergreen"
-        },
-        {
-            "attributes": {
-                "type": "ProductSellingModel",
-                "referenceId": "ProductSellingModelRef7"
-            },
-            "SellingModelType": "Term-Defined",
-            "PricingTerm": 7,
-            "PricingTermUnit": "Days",
-            "Status": "Draft",
-            "Name": "Weekly Term"
         }
     ]
 }
