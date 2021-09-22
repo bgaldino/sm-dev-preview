@@ -7,7 +7,6 @@
 # - create a Payment Gateway Provider record
 # - create a Payment Gateway record
 #
-# Note: The mapping to the store is not done here and needs to be done manually
 
 function prompt_for_gateway {
     echo "Payment Gateway Adapter options:"
