@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Named Credential-->
+    <types>
+        <members>Salesforce</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>Avalara</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>Payeezy</members>
+        <name>NamedCredential</name>
+    </types>
+
+    <!-- Apex Class-->
+    <types>
+        <members>MockAdapter</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SalesforceAdapter</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SalesforceValidationException</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SalesforceValidationException</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Layout-->
+    <types>
+        <members>Account-Account Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Product2-Product Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Order-Order Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>OrderItem-Order Product Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Invoice-Invoice Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Payment-Payment Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Asset-Asset Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- Flexi Page -->
+    <types>
+        <members>Asset_Record_Page1</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <!-- Payment Gateway Provider -->
+    <types>
+        <members>SFDCRC</members>
+        <name>PaymentGatewayProvider</name>
+    </types>
+
+    <!-- Permission Set -->
+    <types>
+        <members>Revenue_Cloud_Pilot</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Flow -->
+    <types>
+        <members>SM_Create_Assets_on_Order_Activation</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>SM_Create_Billing_Schedules_on_Order_Activation</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Custom Application -->
+    <types>
+        <members>Subscription_Management</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <version>53.0</version>
+</Package>

@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductSellingModel",
+                "referenceId": "ProductSellingModelRef1"
+            },
+            "SellingModelType": "One Time",
+            "Status": "Draft",
+            "Name": "One Time"
+        },
+        {
+            "attributes": {
+                "type": "ProductSellingModel",
+                "referenceId": "ProductSellingModelRef2"
+            },
+            "SellingModelType": "Evergreen",
+            "PricingTerm": 1,
+            "PricingTermUnit": "Months",
+            "Status": "Draft",
+            "Name": "Monthly Evergreen"
+        }
+    ]
+}
