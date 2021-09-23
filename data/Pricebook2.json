@@ -5,8 +5,7 @@
                 "type": "Pricebook2",
                 "referenceId": "Pricebook2Ref1"
             },
-            "Name": "Standard Price Book",
-            "IsStandard": true,
+            "Name": "Subscription Management Price Book",
             "IsActive": true
         }
     ]
