@@ -5,7 +5,6 @@
                 "type": "PricebookEntry",
                 "referenceId": "PricebookEntryRef1"
             },
-            "Name": "One-Time Product",
             "IsActive": true,
             "UnitPrice": 100,
             "UseStandardPrice": false,
@@ -18,7 +17,6 @@
                 "type": "PricebookEntry",
                 "referenceId": "PricebookEntryRef2"
             },
-            "Name": "Evergreen Product",
             "IsActive": true,
             "UnitPrice": 10,
             "UseStandardPrice": false,
