@@ -1,0 +1,17 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProrationPolicy",
+                "referenceId": "ProrationPolicyRef1"
+            },
+            "Name": "Monthly Anniversary",
+            "ProrationPolicyType": "NonFixedTimeBased",
+            "ProrationFlow": "Calculate",
+            "ProrationPeriod": "Monthly",
+            "RemainderStrategy": "AddToLast",
+            "PeriodBoundary": "Anniversary",
+            "PeriodBoundaryDay": 1
+        }
+    ]
+}

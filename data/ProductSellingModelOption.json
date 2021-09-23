@@ -1,0 +1,23 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductSellingModelOption",
+                "referenceId": "ProductSellingModelOptionRef1"
+            },
+            "Name": "PSMO-000000001",
+            "ProductSellingModelId": "@ProductSellingModelRef1",
+            "ProrationPolicyId": "@ProrationPolicyRef1",
+            "Product2Id": "@Product2Ref2"
+        },
+        {
+            "attributes": {
+                "type": "ProductSellingModelOption",
+                "referenceId": "ProductSellingModelOptionRef2"
+            },
+            "Name": "PSMO-000000002",
+            "ProductSellingModelId": "@ProductSellingModelRef2",
+            "Product2Id": "@Product2Ref1"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef1"
+            },
+            "Name": "One-Time Product",
+            "IsActive": true,
+            "UnitPrice": 100,
+            "UseStandardPrice": false,
+            "Product2Id":"@Product2Ref1",
+            "ProductSellingModelId": "@ProductSellingModelRef2",
+            "Pricebook2Id": "@Pricebook2Ref1"
+        },
+        {
+            "attributes": {
+                "type": "PricebookEntry",
+                "referenceId": "PricebookEntryRef2"
+            },
+            "Name": "Evergreen Product",
+            "IsActive": true,
+            "UnitPrice": 10,
+            "UseStandardPrice": false,
+            "Product2Id":"@Product2Ref2",
+            "ProductSellingModelId": "@ProductSellingModelRef1",
+            "Pricebook2Id": "@Pricebook2Ref1"
+        }
+    ]
+}
