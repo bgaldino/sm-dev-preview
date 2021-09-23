@@ -100,10 +100,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Jigsaw</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Tier</field>
             </layoutItems>
             <layoutItems>
