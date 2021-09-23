@@ -283,7 +283,6 @@
     </layoutSections>
     <platformActionList>
         <actionListContext>Record</actionListContext>
-        </platformActionListItems>
         <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
