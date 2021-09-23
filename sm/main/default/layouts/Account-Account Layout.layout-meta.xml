@@ -99,10 +99,6 @@
                 <field>AnnualRevenue</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>IsBuyer</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Jigsaw</field>
             </layoutItems>
@@ -290,12 +286,6 @@
         <fields>ORDERS.TOTAL_AMOUNT</fields>
         <fields>CONTRACT.CONTRACT_NUMBER</fields>
         <relatedList>RelatedOrderList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>Owner</fields>
-        <fields>TotalProductAmount</fields>
-        <relatedList>Carts</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>ASSET.NAME</fields>

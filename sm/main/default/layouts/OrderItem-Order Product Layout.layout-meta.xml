@@ -38,34 +38,6 @@
                 <behavior>Edit</behavior>
                 <field>TaxTreatmentId</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Activated__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>IsActivated__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>EvergreenEndDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>EvergreenStDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>FullRecogDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Revenue_Amount__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>MRR__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -270,7 +242,6 @@
         <fields>Order</fields>
         <fields>Type</fields>
         <fields>SourceAsset</fields>
-        <fields>OffsetOrderItem</fields>
         <relatedList>OrderActions</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

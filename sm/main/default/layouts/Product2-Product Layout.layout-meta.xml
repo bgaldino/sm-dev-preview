@@ -33,10 +33,6 @@
                 <behavior>Edit</behavior>
                 <field>StockKeepingUnit</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Type</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -57,10 +53,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ExternalId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>ProductClass</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -136,24 +128,6 @@
         <fields>ProrationPolicy</fields>
         <fields>Status</fields>
         <relatedList>RelatedProductSellingModelOption</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Policy</fields>
-        <fields>PolicyCreatedBy</fields>
-        <fields>IsPolicyActive</fields>
-        <relatedList>CommerceEntitlementPolicies</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>BundleProductName</fields>
-        <fields>Quantity</fields>
-        <fields>BundleName</fields>
-        <relatedList>RelatedBundleProduct</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Product2</fields>
-        <fields>Location</fields>
-        <fields>QuantityOnHand</fields>
-        <relatedList>ProductItems</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedPricebookEntryList</relatedList>
