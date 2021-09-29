@@ -24,6 +24,12 @@
         <name>ApexClass</name>
     </types>
 
+    <!-- Apex Trigger-->
+    <types>
+        <members>triggerOnOrderItem</members>
+        <name>ApexTrigger</name>
+    </types>
+
     <!-- Layout-->
     <types>
         <members>Account-Account Layout</members>
@@ -73,6 +79,10 @@
     </types>
 
     <!-- Flow -->
+    <types>
+        <members>SM_Buy_Now_Assets</members>
+        <name>Flow</name>
+    </types>
     <types>
         <members>SM_Create_Assets_on_Order_Activation</members>
         <name>Flow</name>
