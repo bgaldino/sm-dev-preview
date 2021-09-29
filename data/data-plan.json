@@ -6,8 +6,15 @@
     },
     {
         "sobject": "TaxTreatment",
+        "saveRefs": true,
         "resolveRefs": true,
         "files": ["TaxTreatment.json"]
+    },
+    {
+        "sobject": "TaxPolicy",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["TaxPolicy.json"]
     },
     {
         "sobject": "Pricebook2",

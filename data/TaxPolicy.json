@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "TaxPolicy",
+                "referenceId": "TaxPolicyRef1"
+            },
+            "Name": "No Tax Policy",
+            "TreatmentSelection": "LegalEntity",
+            "DefaultTaxTreatmentId": "@TaxTreatmentRef1",
+            "Status": "Active"
+        }
+    ]
+}
