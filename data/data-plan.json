@@ -11,17 +11,6 @@
         "files": ["TaxTreatment.json"]
     },
     {
-        "sobject": "TaxPolicy",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": ["TaxPolicy.json"]
-    },
-    {
-        "sobject": "Pricebook2",
-        "saveRefs": true,
-        "files": ["Pricebook2.json"]
-    },
-    {
         "sobject": "ProrationPolicy",
         "saveRefs": true,
         "files": ["ProrationPolicy.json"]

@@ -10,7 +10,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref1",
             "ProductSellingModelId": "@ProductSellingModelRef2",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "01sB0000002YPJsIAO"
         },
         {
             "attributes": {
@@ -22,7 +22,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref2",
             "ProductSellingModelId": "@ProductSellingModelRef1",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "01sB0000002YPJsIAO"
         }
     ]
 }
