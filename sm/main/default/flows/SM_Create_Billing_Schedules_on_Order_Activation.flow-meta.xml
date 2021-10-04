@@ -133,7 +133,7 @@
         <object>OrderStatusChangedEvent</object>
         <triggerType>PlatformEvent</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>OrderId</name>
         <dataType>String</dataType>
