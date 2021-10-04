@@ -129,26 +129,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Availability</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>AverageUptimePerDay</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ConsequenceOfFailure</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SumDowntime</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SumUnplannedDowntime</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
                 <field>CurrentAmount</field>
             </layoutItems>
             <layoutItems>
@@ -218,10 +198,6 @@
                 <field>StockKeepingUnit</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Reliability</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>RenewalTerm</field>
             </layoutItems>
@@ -244,14 +220,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Uuid</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>UptimeRecordEnd</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>UptimeRecordStart</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

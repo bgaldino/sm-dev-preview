@@ -178,10 +178,6 @@
                 <behavior>Readonly</behavior>
                 <field>Pricebook2Id</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>QuoteId</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -195,10 +191,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>SalesChannelId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>SalesStoreId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

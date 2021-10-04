@@ -114,17 +114,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Order.QuoteId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Order.SalesChannelId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.SalesStoreId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -275,11 +265,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>OrderItem.ProductSellingModelId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.QuoteLineItemId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -174,10 +174,6 @@
                 <field>TotalLineTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>QuoteLineItemId</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>RelatedOrderItemId</field>
             </layoutItems>
