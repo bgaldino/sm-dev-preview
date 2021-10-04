@@ -198,10 +198,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SalesStoreId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>ShipToContactId</field>
             </layoutItems>
             <layoutItems>
