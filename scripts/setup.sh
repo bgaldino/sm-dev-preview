@@ -4,13 +4,13 @@ namedCredentialMasterLabel="Salesforce"
 paymentGatewayAdapterName="SalesforceAdapter"
 paymentGatewayProviderName="SalesforceGatewayProvider"
 paymentGatewayName="MockGateway"
-defaultDir="./sm/main";
+defaultDir="../sm/main";
 
 echo "Pushing Main Default to the Org. This will take few mins."
 sfdx force:source:deploy -p $defaultDir
 
 echo "Pushing Data to the Org"
-sfdx force:data:tree:import -p ./data/data-plan.json 
+sfdx force:data:tree:import -p ../data/data-plan.json 
 
 apexClassId=`sfdx force:data:soql:query -q "SELECT Id FROM ApexClass WHERE Name='$paymentGatewayAdapterName' LIMIT 1" -r csv |tail -n +2`
 
