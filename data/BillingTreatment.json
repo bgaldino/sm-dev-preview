@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "BillingTreatment",
+                "referenceId": "BillingTreatmentRef1"
+            },
+            "Description": null,
+            "ExcludeFromBilling": "No",
+            "Name": "Default Biling Treatment",
+            "Status": "Draft",
+            "LegalEntityId": "@LegalEntityRef1"
+        }
+    ]
+}

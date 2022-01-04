@@ -6,7 +6,7 @@
                 "referenceId": "TaxTreatmentRef1"
             },
             "Name": "No Tax Treatment",
-            "Status": "Active",
+            "Status": "Draft",
             "LegalEntityId": "@LegalEntityRef1"
         }
     ]

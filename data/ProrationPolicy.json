@@ -5,13 +5,10 @@
                 "type": "ProrationPolicy",
                 "referenceId": "ProrationPolicyRef1"
             },
-            "Name": "Monthly Anniversary",
+            "Name": "Monthly Anniversary 12",
             "ProrationPolicyType": "NonFixedTimeBased",
-            "ProrationFlow": "Calculate",
-            "ProrationPeriod": "Monthly",
             "RemainderStrategy": "AddToLast",
-            "PeriodBoundary": "Anniversary",
-            "PeriodBoundaryDay": 1
+            "IsPartialPeriodsAllowed": true
         }
     ]
 }

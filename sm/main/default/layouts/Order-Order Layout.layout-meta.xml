@@ -190,15 +190,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SalesChannelId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>ShipToContactId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TaxLocaleType</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -360,12 +352,6 @@
         <fields>SourceAsset</fields>
         <fields>OffsetOrderItem</fields>
         <relatedList>OrderActions</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>ErrorMessage</fields>
-        <fields>RelatedRecord</fields>
-        <relatedList>RevenueTransactionErrorLogs</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
