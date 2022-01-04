@@ -7,7 +7,7 @@ paymentGatewayName="MockGateway"
 defaultDir="../sm/main";
 
 echo "Pushing Main Default to the Org. This will take few mins."
-sfdx force:source:deploy -p $defaultDir
+#sfdx force:source:deploy -p $defaultDir
 
 echo "Pushing Data to the Org"
 sfdx force:data:tree:import -p ../data/data-plan.json 

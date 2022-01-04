@@ -6,7 +6,9 @@
                 "referenceId": "Product2Ref1"
             },
             "Name": "One-Time Product",
-            "IsActive": true
+            "BillingPolicyId": "@BillingPolicyRef1",
+            "TaxPolicyId": "@TaxPolicyRef1",
+            "IsActive": false
         },
         {
             "attributes": {
@@ -14,7 +16,9 @@
                 "referenceId": "Product2Ref2"
             },
             "Name": "Evergreen Product",
-            "IsActive": true
+            "BillingPolicyId": "@BillingPolicyRef1",
+            "TaxPolicyId": "@TaxPolicyRef1",
+            "IsActive": false
         }
     ]
 }

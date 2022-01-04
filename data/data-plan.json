@@ -5,10 +5,34 @@
         "files": ["LegalEntity.json"]
     },
     {
+        "sobject": "BillingTreatment",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["BillingTreatment.json"]
+    },
+    {
+        "sobject": "BillingTreatmentItem",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["BillingTreatmentItem.json"]
+    },
+    {
+        "sobject": "BillingPolicy",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["BillingPolicy.json"]
+    },
+    {
         "sobject": "TaxTreatment",
         "saveRefs": true,
         "resolveRefs": true,
         "files": ["TaxTreatment.json"]
+    },
+    {
+        "sobject": "TaxPolicy",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["TaxPolicy.json"]
     },
     {
         "sobject": "ProrationPolicy",
@@ -23,16 +47,13 @@
     {
         "sobject": "Product2",
         "saveRefs": true,
+        "resolveRefs": true,
         "files": ["Product2.json"]
     },
     {
         "sobject": "ProductSellingModelOption",
         "resolveRefs": true,
+        "safeRefs": true,
         "files": ["ProductSellingModelOption.json"]
-    },
-    {
-        "sobject": "PricebookEntry",
-        "resolveRefs": true,
-        "files": ["PricebookEntry.json"]
     }
 ]

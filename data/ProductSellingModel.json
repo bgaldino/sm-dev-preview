@@ -9,7 +9,7 @@
             "PricingTerm": 1,
             "PricingTermUnit": "Months",
             "SellingModelType": "Evergreen",
-            "Status": "Active"
+            "Status": "Draft"
         },
         {
             "attributes": {
@@ -18,7 +18,7 @@
             },
             "Name": "One-Time",
             "SellingModelType": "OneTime",
-            "Status": "Active"
+            "Status": "Draft"
         }
     ]
 }
