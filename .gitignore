@@ -1,5 +1,6 @@
 .DS_Store
 .sfdx
+.sf
 deploy
 sfdx
 jest.config.js
