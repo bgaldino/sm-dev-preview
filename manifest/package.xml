@@ -24,12 +24,6 @@
         <name>ApexClass</name>
     </types>
 
-    <!-- Apex Trigger-->
-    <types>
-        <members>triggerOnOrderItem</members>
-        <name>ApexTrigger</name>
-    </types>
-
     <!-- Layout-->
     <types>
         <members>Account-Account Layout</members>
@@ -60,12 +54,6 @@
         <name>Layout</name>
     </types>
 
-    <!-- Flexi Page -->
-    <types>
-        <members>Asset_Record_Page1</members>
-        <name>FlexiPage</name>
-    </types>
-
     <!-- Payment Gateway Provider -->
     <types>
         <members>SFDCRC</members>
@@ -78,19 +66,6 @@
         <name>PermissionSet</name>
     </types>
 
-    <!-- Flow -->
-    <types>
-        <members>SM_Buy_Now_Assets</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>SM_Create_Assets_on_Order_Activation</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>SM_Create_Billing_Schedules_on_Order_Activation</members>
-        <name>Flow</name>
-    </types>
 
     <!-- Custom Application -->
     <types>
@@ -104,5 +79,5 @@
         <name>Profile</name>
     </types>
 
-    <version>53.0</version>
+    <version>54.0</version>
 </Package>

@@ -60,6 +60,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>BillingPolicyId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>TaxPolicyId</field>
             </layoutItems>
             <layoutItems>
