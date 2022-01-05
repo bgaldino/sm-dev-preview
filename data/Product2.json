@@ -19,6 +19,16 @@
             "BillingPolicyId": "@BillingPolicyRef1",
             "TaxPolicyId": "@TaxPolicyRef1",
             "IsActive": false
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "Term Product",
+            "BillingPolicyId": "@BillingPolicyRef1",
+            "TaxPolicyId": "@TaxPolicyRef1",
+            "IsActive": false
         }
     ]
 }

@@ -19,6 +19,17 @@
             "Name": "One-Time",
             "SellingModelType": "OneTime",
             "Status": "Draft"
+        },
+        {
+            "attributes": {
+                "type": "ProductSellingModel",
+                "referenceId": "ProductSellingModelRef3"
+            },
+            "Name": "Term Annual",
+            "PricingTerm": 12,
+            "PricingTermUnit": "Months",
+            "SellingModelType": "Term-Defined",
+            "Status": "Draft"
         }
     ]
 }
