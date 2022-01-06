@@ -9,7 +9,7 @@
             "PricingTerm": 1,
             "PricingTermUnit": "Months",
             "SellingModelType": "Evergreen",
-            "Status": "Draft"
+            "Status": "Active"
         },
         {
             "attributes": {
@@ -18,7 +18,7 @@
             },
             "Name": "One-Time",
             "SellingModelType": "OneTime",
-            "Status": "Draft"
+            "Status": "Active"
         },
         {
             "attributes": {
@@ -28,8 +28,19 @@
             "Name": "Term Annual",
             "PricingTerm": 12,
             "PricingTermUnit": "Months",
-            "SellingModelType": "Term-Defined",
-            "Status": "Draft"
+            "SellingModelType": "TermDefined",
+            "Status": "Active"
+        },
+        {
+            "attributes": {
+                "type": "ProductSellingModel",
+                "referenceId": "ProductSellingModelRef4"
+            },
+            "Name": "Term Monthly",
+            "PricingTerm": 1,
+            "PricingTermUnit": "Months",
+            "SellingModelType": "TermDefined",
+            "Status": "Active"
         }
     ]
 }

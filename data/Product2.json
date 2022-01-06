@@ -8,27 +8,37 @@
             "Name": "One-Time Product",
             "BillingPolicyId": "@BillingPolicyRef1",
             "TaxPolicyId": "@TaxPolicyRef1",
-            "IsActive": false
+            "IsActive": true
         },
         {
             "attributes": {
                 "type": "Product2",
                 "referenceId": "Product2Ref2"
             },
-            "Name": "Evergreen Product",
+            "Name": "Monthly Evergreen",
             "BillingPolicyId": "@BillingPolicyRef1",
             "TaxPolicyId": "@TaxPolicyRef1",
-            "IsActive": false
+            "IsActive": true
         },
         {
             "attributes": {
                 "type": "Product2",
                 "referenceId": "Product2Ref3"
             },
-            "Name": "Term Product",
+            "Name": "Annual Term",
             "BillingPolicyId": "@BillingPolicyRef1",
             "TaxPolicyId": "@TaxPolicyRef1",
-            "IsActive": false
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "Monthly Term",
+            "BillingPolicyId": "@BillingPolicyRef1",
+            "TaxPolicyId": "@TaxPolicyRef1",
+            "IsActive": true
         }
     ]
 }

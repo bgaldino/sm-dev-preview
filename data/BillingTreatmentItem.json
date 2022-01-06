@@ -15,7 +15,7 @@
             "Percentage": 100,
             "ProcessingOrder": 1,
             "Sequencing":"Manual",
-            "Status": "Draft",
+            "Status": "Active",
             "Type": "Percentage"        }
     ]
 }
