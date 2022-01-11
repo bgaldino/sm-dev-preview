@@ -1,8 +1,8 @@
 #!/bin/sh
 
 defaultDir="../sm/main";
-
-sf deploy metadata --source-dir $defaultDir/default/permissionsets --test-level RunLocalTests
+sfdx force:source:deploy -p $defaultDir/default/classes
+sfdx force:source:deploy -p $defaultDir/default/permissionsets
 
 sfdx force:user:permset:assign --permsetname Revenue_Cloud_Pilot
 sfdx force:user:permset:assign --permsetname CALM_PermSet_Do_not_Edit

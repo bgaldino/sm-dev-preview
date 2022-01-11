@@ -23,7 +23,7 @@ echo_attention "Pushing Permission Sets"
 echo ""
 
 echo_attention "Pushing Main Default to the Org. This will take few mins."
-sf deploy metadata --source-dir $defaultDir --test-level RunLocalTests
+sfdx force:source:deploy -p $defaultDir --apiversion=54.0
 
 echo ""
 
