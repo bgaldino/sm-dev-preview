@@ -6,6 +6,14 @@ paymentGatewayProviderName="SalesforceGatewayProvider"
 paymentGatewayName="MockGateway"
 defaultDir="../sm/main";
 
+function error_and_exit() {
+   echo "$1"
+   exit 1
+}
+
+echo "Pushing Permission Sets"
+./assign-permsets.sh || error_and_exit "Permset Assignments Failed."
+
 echo "Pushing Main Default to the Org. This will take few mins."
 sfdx force:source:deploy -p $defaultDir
 
@@ -22,4 +30,3 @@ echo "Creating PaymentGateway record using MerchantCredentialId=$namedCredential
 sfdx force:data:record:create -s PaymentGateway -v "MerchantCredentialId=$namedCredentialId PaymentGatewayName=$paymentGatewayName PaymentGatewayProviderId=$paymentGatewayProviderId Status=Active"
 
 echo "All operations completed"
-
