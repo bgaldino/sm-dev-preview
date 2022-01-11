@@ -2,8 +2,7 @@
 
 defaultDir="../sm/main";
 
-echo "Pushing Permission Sets"
-sfdx force:source:deploy -p $defaultDir/default/permissionsets
+sf deploy metadata --source-dir $defaultDir/default/permissionsets --test-level RunLocalTests
 
 sfdx force:user:permset:assign --permsetname Revenue_Cloud_Pilot
 sfdx force:user:permset:assign --permsetname CALM_PermSet_Do_not_Edit
@@ -18,7 +17,7 @@ sfdx force:user:permset:assign --permsetname Phoenix_CalculatePriceAPI_DONOTEDIT
 sfdx force:user:permset:assign --permsetname Phoenix_CreateQuote
 sfdx force:user:permset:assign --permsetname Phoenix_CreditMemoApiUser_DONOTEDIT
 sfdx force:user:permset:assign --permsetname Phoenix_CreditMemoApiUserRecordAccess_DONOTEDIT
-sfdx force:user:permset:assign --permsetname Phoenix_PaymentsPlatformAPIs_DONOTEDIT
+sfdx force:user:permset:assign --permsetname Phoenix_PaymentsApiUser_DONOTEDIT
 sfdx force:user:permset:assign --permsetname Phoenix_PaymentsPlatformCRUD_DONOTEDIT
 sfdx force:user:permset:assign --permsetname Phoenix_PaymentsPlatformSetup_DONOTEDIT
 sfdx force:user:permset:assign --permsetname Phoenix_PearCancel_DONOTEDIT
@@ -31,5 +30,6 @@ sfdx force:user:permset:assign --permsetname Phoenix_SBP_AR_Ops_User_Do_Not_Edit
 sfdx force:user:permset:assign --permsetname Phoenix_SBP_User_Do_Not_Edit
 sfdx force:user:permset:assign --permsetname Phoenix_TaxApp_API_admin_DO_NOT_EDIT
 sfdx force:user:permset:assign --permsetname Phoenix_TaxApp_API_user_DO_NOT_EDIT
-
-echo "All operations completed"
+sfdx force:user:permset:assign --permsetname DEMO_11a_Activate_Orders
+sfdx force:user:permset:assign --permsetname DEMO_11a_Create_Cancellation_Order
+sfdx force:user:permset:assign --permsetname DEMO_11a_Temp_Data_Setup
