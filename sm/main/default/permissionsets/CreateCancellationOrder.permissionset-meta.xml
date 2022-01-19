@@ -41,7 +41,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>[DEMO 11a]: Create Cancellation Order</label>
+    <label>Create Cancellation Order</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>

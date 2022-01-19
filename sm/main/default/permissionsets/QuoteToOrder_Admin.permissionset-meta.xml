@@ -21,7 +21,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Phoenix_QuoteToOrderAdmin[DONOTEDIT]</label>
+    <label>Quote To Order Generation API - Admin</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

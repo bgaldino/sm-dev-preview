@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Phoenix_PaymentsPlatformAPIs[DONOTEDIT]</label>
+    <label>Customer Asset Lifecycle Management User</label>
     <license>Salesforce</license>
     <userPermissions>
         <enabled>true</enabled>
-        <name>UseOrderManagementAPIs</name>
+        <name>LifecycleManagementAPIUser</name>
     </userPermissions>
 </PermissionSet>

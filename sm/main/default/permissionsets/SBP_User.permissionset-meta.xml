@@ -2,7 +2,7 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Provides the required permissions to create Payment Schedules and Payment Schedule Items</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Phoenix_SBP_User_Do_Not_Edit</label>
+    <label>Schedule Batch Payments</label>
     <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>false</allowCreate>

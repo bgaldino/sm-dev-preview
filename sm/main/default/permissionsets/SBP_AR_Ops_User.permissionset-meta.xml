@@ -2,7 +2,7 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Provides the required permissions for AR Ops user to schedule a Payment Run job and also access to instances of those executed runs.</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Phoenix_SBP_AR_Ops_User_Do_Not_Edit</label>
+    <label>Schedule Batch Payments AR Operations User</label>
     <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>false</allowCreate>
