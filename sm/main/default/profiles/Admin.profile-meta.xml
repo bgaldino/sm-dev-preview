@@ -29,4 +29,8 @@
         <enabled>true</enabled>
         <flow>Buy_Now_Pilot</flow>
     </flowAccesses>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Order_To_Billing_Schedule</flow>
+    </flowAccesses>
 </Profile>
