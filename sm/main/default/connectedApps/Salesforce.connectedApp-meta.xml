@@ -3,9 +3,7 @@
     <contactEmail>bgaldino@salesforce.com</contactEmail>
     <label>Salesforce</label>
     <oauthConfig>
-        <callbackUrl>https://login.salesforce.com/services/oauth2/callback
-https://sm-pilot-test10.my.salesforce.com/services/oauth2/callback
-https://sm-pilot-test10.my.salesforce.com/services/authcallback/Salesforce</callbackUrl>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
         <isAdminApproved>false</isAdminApproved>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
