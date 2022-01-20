@@ -1,5 +1,4 @@
-# sm-dev-preview
-## **Salesforce Subscription Management Customer Pilot**
+# **Salesforce Subscription Management Customer Pilot**
 
 This repository contains setup scripts, reference implementations and initial data to help quickly configure a fully functional, E2E Salesforce Subscription Management environment as part of the Customer Pilot program.
 
@@ -11,4 +10,6 @@ There will be new environments available once Summer '22 is released, so it is r
 
 ### **INSTRUCTIONS**
 
-Upon receipt and after confirming access to your customer preview environment, you can run the **setup.sh** script in the scripts directory to push the source, data, and will set up a mock payment gateway.
+Upon receipt and after confirming access to your customer preview environment, you can run the **setup.sh** script in the scripts directory to push the sample source, metadata and data, and will also set up a mock payment gateway.  After successful completion of the setup scripts, you will be able to use the published postman collection to access the org to validate your setup.
+
+These scripts set up two default connected apps for you to facilitate your setup of the collection.  Please reference the consumer key and secret from the **Postman** connected app in your org to use in your collection environment variables.
