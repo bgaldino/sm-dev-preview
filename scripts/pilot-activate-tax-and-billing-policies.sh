@@ -28,7 +28,7 @@ sfdx force:data:record:update -s TaxTreatment -i $defaultTaxTreatmentId -v "TaxP
 
 sfdx force:data:record:update -s TaxPolicy -i $defaultTaxPolicyId -v "DefaultTaxTreatmentId='$defaultTaxTreatmentId' Status=Active"
 
-defaultBillingTreatmentItemId=`sfdx force:data:soql:query -q "SELECT Id from BillingTreatmentItem WHERE Name='$defaultBillingTreatmentItemName' AND Status='Draft' LIMIT 1" -r csv | tail -n +2`
+defaultBillingTreatmentItemId=`sfdx force:data:soql:query -q "SELECT Id from BillingTreatmentItem WHERE Name='$defaultBillingTreatmentItemName' AND Status='Active' LIMIT 1" -r csv | tail -n +2`
 echo_attention defaultBillingTreatmentItemId=$defaultBillingTreatmentItemId
 
 defaultBillingTreatmentId=`sfdx force:data:soql:query -q "SELECT Id from BillingTreatment WHERE Name='$defaultBillingTreatmentName' AND Status='Draft' LIMIT 1" -r csv | tail -n +2`

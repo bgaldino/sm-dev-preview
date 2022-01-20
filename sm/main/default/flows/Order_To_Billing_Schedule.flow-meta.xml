@@ -54,7 +54,7 @@
     <decisions>
         <name>Is_Order_Activated</name>
         <label>Is Order Activated</label>
-        <locationX>600</locationX>
+        <locationX>710</locationX>
         <locationY>194</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -88,7 +88,7 @@
     <decisions>
         <name>Is_Order_from_Buy_Now</name>
         <label>Are All Records BuyNow?</label>
-        <locationX>270</locationX>
+        <locationX>314</locationX>
         <locationY>434</locationY>
         <defaultConnectorLabel>Error</defaultConnectorLabel>
         <rules>
@@ -157,7 +157,7 @@
     <recordLookups>
         <name>Get_AppUsageAssignment</name>
         <label>Get AppUsageAssignment</label>
-        <locationX>270</locationX>
+        <locationX>314</locationX>
         <locationY>314</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -204,7 +204,7 @@
         <queriedFields>Id</queriedFields>
     </recordLookups>
     <start>
-        <locationX>474</locationX>
+        <locationX>584</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Is_Order_Activated</targetReference>
