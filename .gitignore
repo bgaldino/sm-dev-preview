@@ -6,3 +6,6 @@ sfdx
 jest.config.js
 .vscode
 mdapi
+README.md
+data/Product2.json
+data/PricebookEntry.json
