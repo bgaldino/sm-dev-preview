@@ -27,8 +27,24 @@ sfdx force:source:deploy -p $defaultDir --apiversion=54.0
 
 echo ""
 
-echo_attention "Pushing Data to the Org"
-sfdx force:data:tree:import -p ../data/data-plan.json 
+# Get Standard Pricebooks for Store and replace in json files
+echo_attention "Getting Standard Pricebook for Pricebook Entries and replacing in data files"
+pricebook1=`sfdx force:data:soql:query -q "SELECT Id FROM Pricebook2 WHERE Name='Standard Price Book' AND IsStandard=true LIMIT 1" -r csv |tail -n +2`
+sed -e "s/\"Pricebook2Id\": \"PutStandardPricebookHere\"/\"Pricebook2Id\": \"${pricebook1}\"/g" ../data/PricebookEntry-template.json > ../data/PricebookEntry.json
+
+# Pushing initial tax & biling data to the org
+echo_attention "Pushing Tax & Billing Policy Data to the Org"
+sfdx force:data:tree:import -p ../data/data-plan-1.json 
+
+echo ""
+
+echo_attention "Activating Tax & Billing Policies and Updating Product2 data records with Activated Policy Ids"
+./pilot-activate-tax-and-billing-policies.sh || error_and_exit "Tax & Billing Policy Activation Failed"
+
+echo ""
+
+echo_attention "Pushing Product & Pricing Data to the Org"
+sfdx force:data:tree:import -p ../data/data-plan-2.json 
 
 echo ""
 

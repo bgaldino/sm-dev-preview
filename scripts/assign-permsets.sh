@@ -1,11 +1,11 @@
 #!/bin/sh
 
 defaultDir="../sm/main";
-sfdx force:source:deploy -p $defaultDir/default/classes/MockAdapter.cls
-sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceValidationException.cls
-sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceAdapter.cls
+sfdx force:source:deploy -p $defaultDir/default/classes/MockAdapter.cls --apiversion=54.0
+sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceValidationException.cls --apiversion=54.0
+sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceAdapter.cls --apiversion=54.0
 
-sfdx force:source:deploy -p $defaultDir/default/permissionsets
+sfdx force:source:deploy -p $defaultDir/default/permissionsets --apiversion=54.0
 
 sfdx force:user:permset:assign --permsetname Revenue_Cloud_Pilot
 sfdx force:user:permset:assign --permsetname CALM
