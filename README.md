@@ -4,9 +4,9 @@ Pilot Disclaimer
 
 Subscription Management (including any API, documentation or material made available by SFDC for use with Subscription Management) (collectively, "Subscription Management") is not generally available and is being piloted with certain customers subject to and solely for evaluation purposes in accordance with the Salesforce Unified Pilot Research Agreement for this pilot. Subscription Management is Salesforce's Confidential Information and is not part of your purchased Services. Subscription Management is subject to change, may be discontinued without notice at any time in SFDC's sole discretion, and SFDC may never make Subscription Management generally available. Make your purchase decisions only on the basis of generally available products and features. Do not use Subscription Management with real data or in a production environment. Subscription Management is made available on an AS IS basis exclusive of any warranty or support, may contain bugs or errors, is provided solely for evaluation purposes, and is not intended for production use. Use of Subscription Management is at your sole risk. 
 
-This repository contains setup scripts, reference implementations and initial data to help quickly configure a fully functional, E2E Salesforce Subscription Management environment as part of the Customer Pilot program.
+This repository contains setup scripts, reference implementations and initial data to help quickly configure a fully functional, E2E Salesforce Subscription Management environment as part of the Subscription Management Pilot.
 
-This repository is currently limited to **Salesforce Core Spring '22 (236)** environments.  There are changes in Summer '22 (238) that may require significant modifications to licensing and provisioning, so any environment created during the developer preview period may not properly function upon the release of Summer '22 and therefore should be discarded at that time.
+This repository is currently limited to **Salesforce Core Spring '22 (236)** environments.  There are changes in Summer '22 (238) that may require significant modifications.
 
 ## **INSTRUCTIONS**
 
