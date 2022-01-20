@@ -10,7 +10,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref1",
             "ProductSellingModelId": "@ProductSellingModelRef2",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "PutStandardPricebookHere"
         },
         {
             "attributes": {
@@ -22,7 +22,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref2",
             "ProductSellingModelId": "@ProductSellingModelRef1",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "PutStandardPricebookHere"
         },
         {
             "attributes": {
@@ -34,7 +34,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref3",
             "ProductSellingModelId": "@ProductSellingModelRef3",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "PutStandardPricebookHere"
         },
         {
             "attributes": {
@@ -46,7 +46,7 @@
             "UseStandardPrice": false,
             "Product2Id":"@Product2Ref4",
             "ProductSellingModelId": "@ProductSellingModelRef4",
-            "Pricebook2Id": "@Pricebook2Ref1"
+            "Pricebook2Id": "PutStandardPricebookHere"
         }
     ]
 }

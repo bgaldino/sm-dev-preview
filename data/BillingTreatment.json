@@ -7,7 +7,7 @@
             },
             "Description": null,
             "ExcludeFromBilling": "No",
-            "Name": "Default Biling Treatment",
+            "Name": "Default Billing Treatment",
             "Status": "Draft",
             "LegalEntityId": "@LegalEntityRef1"
         }
