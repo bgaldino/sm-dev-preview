@@ -212,7 +212,7 @@
         <object>OrderStatusChangedEvent</object>
         <triggerType>PlatformEvent</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>BuyNowOrderRecordCount</name>
         <dataType>Number</dataType>
