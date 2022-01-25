@@ -11,7 +11,7 @@
                 message = 'Response: ' + response.getReturnValue();
                 var results = JSON.parse(response.getReturnValue());
                 console.log('****', results);
-                if(results.success) {
+                if(results[0].isSuccess) {
                     message = "Success!";
                     var toastEvent = $A.get("e.force:showToast");
                     toastEvent.setParams({

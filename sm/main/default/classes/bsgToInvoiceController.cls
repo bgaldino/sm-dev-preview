@@ -4,7 +4,7 @@ public class bsgToInvoiceController {
     public static String bsgToInvoice(Id orderId){
         // namedCredential should match the name of your named credential from Setup
         String namedCredential = 'Salesforce1';
-        String restApiUrl = 'callout:' + namedCredential + '/services/data/v54.0/commerce/billing/invoices';  
+        String restApiUrl = 'callout:' + namedCredential + '/services/data/v54.0/actions/standard/createInvoiceFromOrder/actions/standard/createInvoiceFromOrder';  
         BillingSchedule bs1;
         BillingSchedule bs2;
 		
@@ -20,21 +20,14 @@ public class bsgToInvoiceController {
 
         DateTime nextBillingDateDT = bs1.NextBillingDate;
 
-        String nextBillingDate = nextBillingDateDT.format('yyyy-MM-dd\'T\'HH:mm:ss.SSSZ');
+        String nextBillingDate = nextBillingDateDT.formatGMT('yyyy-MM-dd\'T\'HH:mm:ss.SSSZ');
         System.debug('nextBillingDate string: ' + nextBillingDate);
 
-        
-        //String bodyJson1 = '{"inputs": [{"orderId": "' + orderId + '"}]}';
-        //String bodyJson =  '{"billingScheduleIds":["' +  bs1.Id + '","' + bs2.Id + '"],' +
-/*         String bodyJson =  '{"billingScheduleIds":["' +  bs1.Id + '"],' + 
-                            '"action":"Posted",' +
-                            '"targetDate":"2022-04-10T20:18:24.000Z",' +
-                            '"invoiceDate":"2022-04-10T20:18:24.000Z"}'; */
-
-        String bodyJson =  '{"billingScheduleIds":["' +  bs1.Id + '"],' + 
-                            '"action":"Posted",' +
+        String bodyJson =  '{"inputs":[{"orderId":"' +  orderId + '",' + 
+                            '"correlationId":"",' +
+                            '"invoiceStatus":"Posted",' +
                             '"targetDate":"' + nextBillingDate + '",' +
-                            '"invoiceDate":"' + nextBillingDate + '"}';
+                            '"invoiceDate":"' + nextBillingDate + '"}]}';
         
         System.debug('bodyJson: ' + bodyJson);
         
