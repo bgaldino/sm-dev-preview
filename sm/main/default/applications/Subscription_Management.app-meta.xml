@@ -8,17 +8,22 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Subscription Management</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
     <tabs>standard-Asset</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Order</tabs>
+    <tabs>standard-BillingScheduleGroup</tabs>
     <tabs>standard-Invoice</tabs>
     <tabs>standard-Payment</tabs>
-    <tabs>standard-PaymentGateway</tabs>
     <tabs>standard-CardPaymentMethod</tabs>
+    <tabs>standard-CreditMemo</tabs>
+    <tabs>standard-TaxPolicy</tabs>
     <tabs>standard-TaxTreatment</tabs>
     <tabs>standard-LegalEntity</tabs>
+    <tabs>standard-PaymentGateway</tabs>
+    <tabs>standard-BillingSchedule</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
