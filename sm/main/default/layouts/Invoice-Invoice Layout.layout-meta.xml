@@ -184,9 +184,17 @@
         <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
-            <sortOrder>1</sortOrder>
+            <sortOrder>0</sortOrder>
         </platformActionListItems>
     </platformActionList>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Amount</fields>
+        <fields>Type</fields>
+        <fields>AppliedDate</fields>
+        <fields>UnappliedDate</fields>
+        <relatedList>RelatedCreditMemoInvAppToInvoiceList</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>Name</fields>
         <fields>Type</fields>
@@ -199,7 +207,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hB0000002J889</masterLabel>
+        <masterLabel>00hB0000002bC9J</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

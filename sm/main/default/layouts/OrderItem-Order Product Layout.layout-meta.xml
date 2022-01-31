@@ -262,8 +262,9 @@
     <multilineLayoutFields>Quantity</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>
     <multilineLayoutFields>ListPrice</multilineLayoutFields>
-    <multilineLayoutFields>Description</multilineLayoutFields>
     <multilineLayoutFields>OrderId</multilineLayoutFields>
+    <multilineLayoutFields>Description</multilineLayoutFields>
+    <multilineLayoutFields>TotalPrice</multilineLayoutFields>
     <relatedLists>
         <fields>Name</fields>
         <fields>ReferenceEntityItem</fields>
