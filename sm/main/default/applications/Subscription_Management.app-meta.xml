@@ -13,6 +13,7 @@
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
     <tabs>standard-Asset</tabs>
+    <tabs>standard-ProductSellingModel</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Order</tabs>
     <tabs>standard-BillingScheduleGroup</tabs>
