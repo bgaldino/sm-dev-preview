@@ -222,6 +222,12 @@
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
+        <fields>RTEL.NAME</fields>
+        <fields>RTEL.ERROR_MESSAGE</fields>
+        <fields>RTEL.RELATED_RECORD</fields>
+        <relatedList>RevenueTransactionErrorLog</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>Name</fields>
         <fields>Category</fields>
         <fields>CategoryEnum</fields>
@@ -245,12 +251,6 @@
         <fields>Type</fields>
         <fields>OffsetOrderItem</fields>
         <relatedList>OrderActions</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>RTEL.NAME</fields>
-        <fields>RTEL.ERROR_MESSAGE</fields>
-        <fields>RTEL.RELATED_RECORD</fields>
-        <relatedList>RevenueTransactionErrorLog</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
