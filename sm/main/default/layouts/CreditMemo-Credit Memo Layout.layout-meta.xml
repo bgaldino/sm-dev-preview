@@ -7,44 +7,86 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>BillingScheduleId</field>
+                <behavior>Edit</behavior>
+                <field>CreditMemoNumber</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>BillingPeriodItemNumber</field>
+                <field>DocumentNumber</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>BillingPeriodStartDate</field>
+                <field>BillingAccountId</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ReferenceEntityId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>BillToContactId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EffectiveDate</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
                 <behavior>Required</behavior>
-                <field>BillingPeriodEndDate</field>
+                <field>CreditDate</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Status</field>
             </layoutItems>
         </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>CreditMemoAmountInformation</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>InvoiceLineId</field>
+                <field>TotalChargeAmount</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>PeriodMultiplier</field>
+                <field>TotalAdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Amount</field>
+                <behavior>Readonly</behavior>
+                <field>TotalTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>InvoicingStatus</field>
+                <behavior>Readonly</behavior>
+                <field>TotalAmount</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalAmountWithTax</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalCreditAmountApplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalCreditAmountUnapplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>NetCreditsApplied</field>
             </layoutItems>
         </layoutColumns>
+        <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -84,11 +126,31 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Type</fields>
+        <fields>RelatedLine</fields>
+        <relatedList>CreditMemoLines</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Amount</fields>
+        <fields>Type</fields>
+        <fields>AppliedDate</fields>
+        <fields>UnappliedDate</fields>
+        <relatedList>RelatedCreditMemoInvAppToCreditMemoList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>RTEL.NAME</fields>
+        <fields>RTEL.ERROR_MESSAGE</fields>
+        <fields>RTEL.RELATED_RECORD</fields>
+        <relatedList>RevenueTransactionErrorLogs</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hB0000002bLfg</masterLabel>
+        <masterLabel>00hB0000002bLfl</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

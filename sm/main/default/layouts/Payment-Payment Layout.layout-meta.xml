@@ -111,6 +111,18 @@
                 <behavior>Edit</behavior>
                 <field>CancellationEffectiveDate</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalApplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalUnapplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>NetApplied</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -222,11 +234,19 @@
         <fields>Date</fields>
         <relatedList>PaymentLinesInvoice</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Refund</fields>
+        <fields>Amount</fields>
+        <fields>Type</fields>
+        <fields>Date</fields>
+        <relatedList>RefundLinesPayment</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hB0000002J8Al</masterLabel>
+        <masterLabel>00hB0000002bLiK</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

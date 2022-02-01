@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://sm-pilot-test14.my.salesforce.com/services/oauth2/authorize</authorizeUrl>
+    <consumerKey>3MVG9SemV5D80oBf2oYnq8tWmMwWf48.BUx2X2gPOHCpPLV0n.tDjF5WyFZJGJKkOvVH1HaIIR6vFV3Gl2YiT</consumerKey>
+    <consumerSecret></consumerSecret>
+    <defaultScopes>full refresh_token Offline_access</defaultScopes>
+    <executionUser>bgaldino@pilot.test14</executionUser>
+    <friendlyName>Salesforce</friendlyName>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://sm-pilot-test14.my.salesforce.com/services/oauth2/token</tokenUrl>
+</AuthProvider>
