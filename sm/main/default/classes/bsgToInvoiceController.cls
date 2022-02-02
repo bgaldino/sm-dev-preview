@@ -4,7 +4,7 @@ public class bsgToInvoiceController {
     public static String bsgToInvoice(Id orderId){
         // namedCredential should match the name of your named credential from Setup
         String namedCredential = 'Salesforce1';
-        String restApiUrl = 'callout:' + namedCredential + '/services/data/v54.0/actions/standard/createInvoiceFromOrder/actions/standard/createInvoiceFromOrder';  
+        String restApiUrl = 'callout:' + namedCredential + '/services/data/v55.0/actions/standard/createInvoiceFromOrder/actions/standard/createInvoiceFromOrder';  
         BillingSchedule bs1;
         BillingSchedule bs2;
 		
