@@ -113,7 +113,6 @@
     </layoutSections>
     <relatedLists>
         <fields>Name</fields>
-        <fields>PaymentSchedule</fields>
         <fields>Status</fields>
         <fields>RequestedAmount</fields>
         <relatedList>PaymentScheduleItems</relatedList>
