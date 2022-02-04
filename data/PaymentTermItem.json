@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PaymentTermItem",
+                "referenceId": "PaymentTermItem1"
+            },
+            "Type": "Period-Based",
+            "PaymentTimeframe": "Standard",
+            "PeriodUnit": "Days",
+            "PaymentTermId": "@PaymentTermRef1",
+            "Period": 30
+        }
+    ]
+}
