@@ -70,7 +70,7 @@
         <fields>Type</fields>
         <fields>Period</fields>
         <fields>PeriodUnit</fields>
-        <relatedList>PaymentTermItem</relatedList>
+        <relatedList>PaymentTermItems</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
