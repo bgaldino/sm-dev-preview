@@ -5,6 +5,6 @@
     <enableOptionalPricebook>true</enableOptionalPricebook>
     <enableOrderEvents>true</enableOrderEvents>
     <enableOrders>true</enableOrders>
-    <enableReductionOrders>true</enableReductionOrders>
+    <enableReductionOrders>false</enableReductionOrders>
     <enableZeroQuantity>true</enableZeroQuantity>
 </OrderSettings>
