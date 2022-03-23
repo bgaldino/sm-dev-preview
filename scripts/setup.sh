@@ -3,7 +3,7 @@
 namedCredentialMasterLabel="Salesforce"
 paymentGatewayAdapterName="SalesforceAdapter"
 paymentGatewayProviderName="SalesforceGatewayProvider"
-paymentGatewayName="MockGateway"
+paymentGatewayName="MockPaymentGateway"
 defaultDir="../sm/main";
 
 function echo_attention() {
