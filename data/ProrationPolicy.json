@@ -6,9 +6,9 @@
                 "referenceId": "ProrationPolicyRef1"
             },
             "Name": "Monthly Anniversary",
-            "ProrationPolicyType": "NonFixedTimeBased",
+            "ProrationPolicyType": "StandardTimePeriods",
             "RemainderStrategy": "AddToLast",
-            "IsPartialPeriodsAllowed": true
+            "ArePartialPeriodsAllowed": true
         }
     ]
 }
