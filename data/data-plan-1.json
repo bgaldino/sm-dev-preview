@@ -33,5 +33,17 @@
         "saveRefs": true,
         "resolveRefs": true,
         "files": ["TaxPolicy.json"]
+    },
+    {
+        "sobject": "PaymentTerm",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["PaymentTerm.json"]
+    },
+    {
+        "sobject": "PaymentTermItem",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["PaymentTermItem.json"]
     }
 ]
