@@ -16,6 +16,7 @@
             "ProcessingOrder": 1,
             "Sequencing":"Manual",
             "Status": "Active",
-            "Type": "Percentage"        }
+            "Type": "Percentage"
+        }
     ]
 }
