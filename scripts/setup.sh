@@ -53,7 +53,9 @@ apexClassId=`sfdx force:data:soql:query -q "SELECT Id FROM ApexClass WHERE Name=
 # Creating Payment Gateway
 echo_attention "Creating Payment Gateway"
 paymentGatewayProviderId=`sfdx force:data:soql:query -q "SELECT Id FROM PaymentGatewayProvider WHERE DeveloperName='$paymentGatewayProviderName' LIMIT 1" -r csv | tail -n +2`
+echo_attention paymentGatewayProviderId=$paymentGatewayProviderId
 namedCredentialId=`sfdx force:data:soql:query -q "SELECT Id FROM NamedCredential WHERE MasterLabel='$namedCredentialMasterLabel' LIMIT 1" -r csv | tail -n +2`
+echo_attention namedCredentialId=$namedCredentialId
 
 echo ""
 
