@@ -1,4 +1,5 @@
 #!/bin/sh
+apiVersion="55.0";
 
 function echo_attention() {
   local green='\033[0;32m'
@@ -6,9 +7,15 @@ function echo_attention() {
   echo "${green}$1${no_color}"
 }
 
-defaultDir="../sm/main";
-sfdx force:source:deploy -p $defaultDir/default/settings/Order.settings-meta.xml --apiversion=55.0
-sfdx force:source:deploy -p $defaultDir/default/settings/Quote.settings-meta.xml --apiversion=55.0
-sfdx force:source:deploy -p $defaultDir/default/classes/MockAdapter.cls --apiversion=55.0
-sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceValidationException.cls --apiversion=55.0
-sfdx force:source:deploy -p $defaultDir/default/classes/SalesforceAdapter.cls --apiversion=55.0
+sfdx force:user:permsetlicense:assign -n RevSubscriptionManagementPsl
+
+sfdx force:user:permset:assign -n SubscriptionManagementBillingAdmin
+sfdx force:user:permset:assign -n SubscriptionManagementBillingOperations
+sfdx force:user:permset:assign -n SubscriptionManagementBuyerIntegrationUser
+sfdx force:user:permset:assign -n SubscriptionManagementCollections
+sfdx force:user:permset:assign -n SubscriptionManagementCreditMemoAdjustmentsOperations
+sfdx force:user:permset:assign -n SubscriptionManagementPaymentAdministrator
+sfdx force:user:permset:assign -n SubscriptionManagementPaymentOperations
+sfdx force:user:permset:assign -n SubscriptionManagementProductAndPricingAdmin
+sfdx force:user:permset:assign -n SubscriptionManagementSalesOperationsRep
+sfdx force:user:permset:assign -n SubscriptionManagementTaxAdmin
