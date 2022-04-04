@@ -1,13 +1,16 @@
 {
   "orgName": "Salesforce Subscription Management",
   "edition": "Enterprise",
-  "features": ["RevSubscriptionManagement"],
+  "features": ["EnablePasswordInApi", "RevSubscriptionManagement"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "subscriptionManagementSettings": {
+      "enableSubscriptionManagement": true
     }
   }
 }
