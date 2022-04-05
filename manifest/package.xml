@@ -56,16 +56,9 @@
 
     <!-- Payment Gateway Provider -->
     <types>
-        <members>SFDCRC</members>
+        <members>SalesforceAdapter</members>
         <name>PaymentGatewayProvider</name>
     </types>
-
-    <!-- Permission Set -->
-    <types>
-        <members>Revenue_Cloud_Pilot</members>
-        <name>PermissionSet</name>
-    </types>
-
 
     <!-- Custom Application -->
     <types>
@@ -79,5 +72,5 @@
         <name>Profile</name>
     </types>
 
-    <version>54.0</version>
+    <version>55.0</version>
 </Package>
