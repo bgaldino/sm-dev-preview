@@ -27,7 +27,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
-        <flow>Buy_Now_Pilot</flow>
+        <flow>Buy_Now_GA</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
