@@ -7,15 +7,46 @@ function echo_attention() {
   echo "${green}$1${no_color}"
 }
 
+declare -a permissionSetGroups=("SubscriptionManagementBillingAdmin" 
+                                "SubscriptionManagementBillingOperations" 
+                                "SubscriptionManagementBuyerIntegrationUser" 
+                                "SubscriptionManagementCollections" 
+                                "SubscriptionManagementCreditMemoAdjustmentsOperations" 
+                                "SubscriptionManagementPaymentAdministrator" 
+                                "SubscriptionManagementPaymentOperations" 
+                                "SubscriptionManagementProductAndPricingAdmin" 
+                                "SubscriptionManagementSalesOperationsRep" 
+                                "SubscriptionManagementTaxAdmin")
+
+declare -a permissionSets=("SubscriptionManagementApplyCreditToInvoiceApi" 
+                          "SubscriptionManagementBillingSetup" 
+                          "SubscriptionManagementCalculateInvoiceLatePaymentRiskFeature" 
+                          "SubscriptionManagementCalculatePricesApi" 
+                          "SubscriptionManagementCalculateTaxesApi" 
+                          "SubscriptionManagementCreateBillingScheduleFromOrderItemApi" 
+                          "SubscriptionManagementCreateInvoiceFromBillingScheduleApi" 
+                          "SubscriptionManagementCreateInvoiceFromOrderApi" 
+                          "SubscriptionManagementCreditAnInvoiceApi" 
+                          "SubscriptionManagementCreditMemoRecoveryApi" 
+                          "SubscriptionManagementInitiateCancellationApi" 
+                          "SubscriptionManagementInitiateRenewalApi" 
+                          "SubscriptionManagementInvoiceErrorRecoveryApi" 
+                          "SubscriptionManagementIssueStandaloneCreditApi" 
+                          "SubscriptionManagementOrderToAssetApi" 
+                          "SubscriptionManagementPaymentsConfiguration" 
+                          "SubscriptionManagementPaymentsRuntimeApi" 
+                          "SubscriptionManagementPlaceOrderApi" 
+                          "SubscriptionManagementProductAndPriceConfigurationApi" 
+                          "SubscriptionManagementProductImportApi" 
+                          "SubscriptionManagementScheduledBatchInvoicingApi" 
+                          "SubscriptionManagementScheduledBatchPaymentsApi" 
+                          "SubscriptionManagementTaxConfiguration" 
+                          "SubscriptionManagementUnapplyCreditToInvoiceApi" 
+                          "SubscriptionManagementVoidPostedInvoiceApi")
+
 sfdx force:user:permsetlicense:assign -n RevSubscriptionManagementPsl
 
-sfdx force:user:permset:assign -n SubscriptionManagementBillingAdmin
-sfdx force:user:permset:assign -n SubscriptionManagementBillingOperations
-sfdx force:user:permset:assign -n SubscriptionManagementBuyerIntegrationUser
-sfdx force:user:permset:assign -n SubscriptionManagementCollections
-sfdx force:user:permset:assign -n SubscriptionManagementCreditMemoAdjustmentsOperations
-sfdx force:user:permset:assign -n SubscriptionManagementPaymentAdministrator
-sfdx force:user:permset:assign -n SubscriptionManagementPaymentOperations
-sfdx force:user:permset:assign -n SubscriptionManagementProductAndPricingAdmin
-sfdx force:user:permset:assign -n SubscriptionManagementSalesOperationsRep
-sfdx force:user:permset:assign -n SubscriptionManagementTaxAdmin
+for i in "${permissionSets[@]}"
+do
+  sfdx force:user:permset:assign -n "$i"
+done
