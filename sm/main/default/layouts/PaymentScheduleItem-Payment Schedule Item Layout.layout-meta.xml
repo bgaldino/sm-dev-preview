@@ -42,7 +42,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>BatchRun</field>
+                <field>PaymentRunMatchingValue</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -98,7 +98,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>PaymentTrigger</field>
+                <field>PaymentSource</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

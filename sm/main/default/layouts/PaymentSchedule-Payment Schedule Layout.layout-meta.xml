@@ -53,6 +53,10 @@
                 <behavior>Readonly</behavior>
                 <field>TotalProcessedAmount</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalAppliedAmount</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -61,7 +65,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>CanceledAmount</field>
+                <field>TotalCanceledAmount</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
