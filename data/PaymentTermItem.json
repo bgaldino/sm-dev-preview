@@ -3,13 +3,13 @@
         {
             "attributes": {
                 "type": "PaymentTermItem",
-                "referenceId": "PaymentTermItem1"
+                "referenceId": "PaymentTermItemRef1"
             },
             "Type": "Period-Based",
-            "PaymentTimeframe": "Standard",
+            "Period": 30,
             "PeriodUnit": "Days",
             "PaymentTermId": "@PaymentTermRef1",
-            "Period": 30
+            "PaymentTimeframe": "Standard"
         }
     ]
 }
