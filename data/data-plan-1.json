@@ -1,10 +1,5 @@
 [
     {
-        "sobject": "LegalEntity",
-        "saveRefs": true,
-        "files": ["LegalEntity.json"]
-    },
-    {
         "sobject": "BillingTreatment",
         "saveRefs": true,
         "resolveRefs": true,

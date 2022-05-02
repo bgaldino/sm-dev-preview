@@ -4,7 +4,7 @@ public class CancelAssetController {
     //test
         // namedCredential should match the name of your named credential from Setup
         String namedCredential = 'Salesforce1';
-        String restApiUrl = 'callout:' + namedCredential + '/services/data/v54.0/asset-management/assets/collection/actions/initiate-cancellation';  
+        String restApiUrl = 'callout:' + namedCredential + '/services/data/v55.0/asset-management/assets/collection/actions/initiate-cancellation';  
         
         String formattedCancelDate = cancelDate.format('yyyy-MM-dd\'T\'HH:mm:ssXXX');
         

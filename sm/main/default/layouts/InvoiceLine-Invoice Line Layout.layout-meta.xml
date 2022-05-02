@@ -111,10 +111,6 @@
                 <behavior>Edit</behavior>
                 <field>ChargeTaxAmount</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>GrossUnitPrice</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>

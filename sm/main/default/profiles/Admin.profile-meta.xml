@@ -27,10 +27,14 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
-        <flow>Buy_Now_Pilot</flow>
+        <flow>Buy_Now_GA</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>true</enabled>
         <flow>Order_To_Billing_Schedule</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Subscribe_Invoice_Processed</flow>
     </flowAccesses>
 </Profile>

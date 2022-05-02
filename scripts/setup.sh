@@ -3,8 +3,9 @@
 namedCredentialMasterLabel="Salesforce"
 paymentGatewayAdapterName="SalesforceAdapter"
 paymentGatewayProviderName="SalesforceGatewayProvider"
-paymentGatewayName="MockGateway"
-defaultDir="../sm/main";
+paymentGatewayName="MockPaymentGateway"
+defaultDir="../sm/main"
+apiVersion="55.0";
 
 function echo_attention() {
   local green='\033[0;32m'
@@ -17,13 +18,18 @@ function error_and_exit() {
    exit 1
 }
 
+echo_attention "Setting Org Settings"
+./set-org-settings.sh || error_and_exit "Setting Org Settings Failed."
+
+echo ""
+
 echo_attention "Pushing Permission Sets"
 ./assign-permsets.sh || error_and_exit "Permset Assignments Failed."
 
 echo ""
 
 echo_attention "Pushing Main Default to the Org. This will take few mins."
-sfdx force:source:deploy -p $defaultDir --apiversion=54.0
+sfdx force:source:deploy -p $defaultDir --apiversion=$apiVersion
 
 echo ""
 
@@ -45,6 +51,11 @@ echo ""
 
 echo_attention "Pushing Product & Pricing Data to the Org"
 sfdx force:data:tree:import -p ../data/data-plan-2.json 
+
+echo ""
+
+echo_attention "Pushing Default Account & Contact"
+sfdx force:data:tree:import -p ../data/data-plan-3.json 
 
 echo ""
 

@@ -31,7 +31,16 @@
                 "type": "ProductSellingModelOption",
                 "referenceId": "ProductSellingModelOptionRef4"
             },
-            "ProductSellingModelId": "@ProductSellingModelRef4",
+            "ProductSellingModelId": "@ProductSellingModelRef1",
+            "ProrationPolicyId": "@ProrationPolicyRef1",
+            "Product2Id": "@Product2Ref4"
+        },
+        {
+            "attributes": {
+                "type": "ProductSellingModelOption",
+                "referenceId": "ProductSellingModelOptionRef5"
+            },
+            "ProductSellingModelId": "@ProductSellingModelRef3",
             "ProrationPolicyId": "@ProrationPolicyRef1",
             "Product2Id": "@Product2Ref4"
         }

@@ -25,6 +25,5 @@
     <tabs>standard-TaxTreatment</tabs>
     <tabs>standard-LegalEntity</tabs>
     <tabs>standard-PaymentGateway</tabs>
-    <tabs>standard-BillingSchedule</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

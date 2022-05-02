@@ -6,7 +6,7 @@
                 "referenceId": "TaxPolicyRef1"
             },
             "Name": "No Tax Policy",
-            "TreatmentSelection": "LegalEntity",
+            "TreatmentSelection": "Default",
             "DefaultTaxTreatmentId": "@TaxTreatmentRef1",
             "Status": "Draft"
         }

@@ -25,7 +25,7 @@
                 "type": "Product2",
                 "referenceId": "Product2Ref3"
             },
-            "Name": "Annual Term",
+            "Name": "Monthly Term",
             "BillingPolicyId": "PutBillingPolicyHere",
             "TaxPolicyId": "PutTaxPolicyHere",
             "IsActive": true
@@ -35,7 +35,7 @@
                 "type": "Product2",
                 "referenceId": "Product2Ref4"
             },
-            "Name": "Monthly Term",
+            "Name": "Monthly Subscription",
             "BillingPolicyId": "PutBillingPolicyHere",
             "TaxPolicyId": "PutTaxPolicyHere",
             "IsActive": true

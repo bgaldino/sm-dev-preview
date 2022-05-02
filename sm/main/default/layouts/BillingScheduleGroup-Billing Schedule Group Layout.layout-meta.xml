@@ -25,10 +25,6 @@
                 <field>BillingAccountId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CurrentBillingPeriodAmount</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>TotalBilledAmount</field>
             </layoutItems>
@@ -41,10 +37,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Controller</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CurrentQuantity</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -137,10 +129,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>EndDate</field>
             </layoutItems>
             <layoutItems>
@@ -182,14 +170,11 @@
     </layoutSections>
     <relatedLists>
         <fields>Name</fields>
-        <fields>Type</fields>
         <fields>ReferenceEntity</fields>
         <fields>ReferenceEntityItem</fields>
         <fields>TotalAmount</fields>
         <fields>Quantity</fields>
         <fields>UnitPrice</fields>
-        <fields>BillingType</fields>
-        <fields>BillingTerm</fields>
         <relatedList>BillingSchedules</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
