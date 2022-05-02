@@ -6,9 +6,9 @@
                 "referenceId": "PaymentTermRef1"
             },
             "Name": "Default Payment Term",
-            "Status": "Draft",
+            "IsDefault": false,
             "Description": "Default Payment Term",
-            "IsDefault": false
+            "Status": "Draft"
         }
     ]
 }
