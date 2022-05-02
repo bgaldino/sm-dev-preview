@@ -54,6 +54,11 @@ sfdx force:data:tree:import -p ../data/data-plan-2.json
 
 echo ""
 
+echo_attention "Pushing Default Account & Contact"
+sfdx force:data:tree:import -p ../data/data-plan-3.json 
+
+echo ""
+
 apexClassId=`sfdx force:data:soql:query -q "SELECT Id FROM ApexClass WHERE Name='$paymentGatewayAdapterName' LIMIT 1" -r csv |tail -n +2`
 
 # Creating Payment Gateway
