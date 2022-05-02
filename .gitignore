@@ -9,13 +9,4 @@ mdapi
 README.md
 data/Product2.json
 data/PricebookEntry.json
-sm/main/default/authproviders/Salesforce.authprovider-meta.xml
-sm/main/default/namedCredentials/Salesforce1.namedCredential-meta.xml
-sm/main/default/classes/AvalaraAdapter.cls
-sm/main/default/classes/AvalaraAdapter.cls-meta.xml
-sm/main/default/classes/AvalaraJSONBuilder.cls
-sm/main/default/classes/AvalaraJSONBuilder.cls-meta.xml
-sm/main/default/classes/CalculateTaxService.cls
-sm/main/default/classes/CalculateTaxService.cls-meta.xml
-TEMP
 TEMP_METADATA
