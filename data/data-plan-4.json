@@ -1,0 +1,13 @@
+[
+    {
+        "sobject": "PaymentTerm",
+        "saveRefs": true,
+        "files": ["PaymentTerm.json"]
+    },
+    {
+        "sobject": "PaymentTermItem",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["PaymentTermItem.json"]
+    }
+]
